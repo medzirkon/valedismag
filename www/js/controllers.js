@@ -14,6 +14,7 @@ angular.module('valedisMag.controllers', [])
 //urm 2
 //urm 3
 //Marie
+//Marie 2
         .controller('CategoryArticleListCtrl', function ($scope, $stateParams, ArticleService) {
             $scope.categoryId = $stateParams.id;
             $scope.articles = ArticleService.getByCategoryId($stateParams.id); 
